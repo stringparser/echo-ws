@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "declaration": true,
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "module": "commonjs",
+        "noImplicitAny": false,
+        "outDir": "dist",
+        "resolveJsonModule": true,
+        "rootDirs": [
+            "app",
+            "test"
+        ],
+        "skipLibCheck": true,
+        "strict": true,
+        "target": "es2017",
+        "typeRoots": [
+            "node_modules/@types"
+        ],
+        "baseUrl": ".",
+        "paths": {
+            "@/*": [
+                "./*"
+            ]
+        }
+    }
+}
